@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href='/images/weather.png'>
+    <link rel="stylesheet" type="text/css" href='/css/index.css'>
+</head>
+
+<body>
+    <div class="content-wrap">
+        {{>header}}
+        {{>navigation}}
+        <form id="weather-form">
+            <p class="label">Please enter the location name to get the weather information.</p>
+            <input class="input" id="weather-inputbox" placeholder="location" />
+            <button class="primary-btn">Search</button>
+            <p id='error'></p>
+            <p id='result'></p>
+        </form>
+    </div>
+    <div class="loader"></div>
+    {{>footer}}
+    <script src='/js/index.js'></script>
+</body>
+
+</html>
