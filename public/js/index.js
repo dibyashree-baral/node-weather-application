@@ -12,7 +12,7 @@ weatherForm.addEventListener("submit", e => {
     data.innerHTML = "";
     loader.style.display = "block";
     contentDiv.classList.add("loading");
-    fetch(`http://localhost:4000/weather?address=${input.value}`)
+    fetch(`/weather?address=${input.value}`)
       .then(response => {
         contentDiv.classList.remove("loading");
         loader.style.display = "none";
