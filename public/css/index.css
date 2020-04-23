@@ -43,13 +43,17 @@ nav a:first-child {
 }
 
 .about-img {
-  height: 340px;
-  width: 265px;
+  height: 278px;
+  width: 215px;
   padding: 28px;
 }
 
 .error {
   color: red;
+}
+
+.result {
+  color: #3498db;
 }
 
 .input {

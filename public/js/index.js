@@ -1,8 +1,8 @@
 const weatherForm = document.getElementById("weather-form");
 const contentDiv = document.querySelector(".content-wrap");
 const input = document.getElementById("weather-inputbox");
-const errorSpan = document.querySelector("#error");
-const data = document.querySelector("#result");
+const errorSpan = document.querySelector(".error");
+const data = document.querySelector(".result");
 const loader = document.querySelector(".loader");
 
 weatherForm.addEventListener("submit", e => {
@@ -34,6 +34,7 @@ weatherForm.addEventListener("submit", e => {
 
     input.value = "";
   } else {
-    console.log("please provide an input to continue search");
+    errorSpan.innerHTML ="please provide an input to continue search";
+    data.innerHTML = "";
   }
 });
