@@ -53,7 +53,20 @@ nav a:first-child {
 }
 
 .result {
-  color: #3498db;
+  color: #333;
+  margin-left: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.show {
+  display: inline;
 }
 
 .input {
