@@ -54,11 +54,14 @@ nav a:first-child {
 
 .result {
   color: #333;
+  margin: 0;
   margin-left: 30px;
 }
 
 .hide {
   display: none;
+  width: 40px;
+  height: 40px;
 }
 
 .wrapper {
@@ -66,7 +69,9 @@ nav a:first-child {
 }
 
 .show {
-  display: inline;
+  display: block;
+  width: 40px;
+  height: 40px;
 }
 
 .input {
